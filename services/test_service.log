@@ -1,0 +1,13 @@
+***********************************
+example 1 - cold user
+cold user 100500100
+recommendation: {'recs': [53404, 178529, 33311009]}
+***********************************
+example 2 - hot user no events
+hot user no events 4
+recommendation_offline: {'recs': [18820599, 647040, 679169]}
+recommendation: {'recs': [18820599, 647040, 679169]}
+***********************************
+example 3 - hot user with events
+hot user save online events {'result': 'ok'}
+hot user online events {'events': [24417, 24417, 24417, 24417, 24417, 24417, 24417, 24417, 24417, 24417]}
